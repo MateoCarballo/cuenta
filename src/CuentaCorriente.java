@@ -34,12 +34,13 @@ public class CuentaCorriente {
     }
 
     public CuentaCorriente(String nombre, String dni){
-        this(nombre);
+        this.nombre=nombre;
         this.dni = dni;
     }
 
     public CuentaCorriente(String nombre, String dni, float saldo){
-        this(nombre,dni);
+        this.nombre=nombre;
+        this.saldo=saldo;
         this.saldo = saldo;
     }
 
